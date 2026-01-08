@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dirty Thirties!</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Comic Sans MS', 'Trebuchet MS', sans-serif;
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: linear-gradient(135deg, #3d5a80 0%, #2c3e50 100%);
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 600px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            border: 3px dashed #7f8c8d;
+        }
+
+        h1 {
+            font-size: 3em;
+            color: #ecf0f1;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            animation: bounce 2s infinite;
+        }
+
+        .subtitle {
+            font-size: 1.5em;
+            color: #e74c3c;
+            margin-bottom: 30px;
+            font-weight: bold;
+            text-decoration: underline wavy;
+        }
+
+        .tagline {
+            font-size: 1.2em;
+            color: #95a5a6;
+            margin-bottom: 30px;
+            font-style: italic;
+        }
+
+        .dirty-thirties {
+            background: rgba(231, 76, 60, 0.2);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 30px 0;
+            border-left: 5px solid #e74c3c;
+        }
+
+        .dirty-thirties p {
+            color: #ecf0f1;
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        .location-section {
+            background: rgba(52, 152, 219, 0.2);
+            padding: 25px;
+            border-radius: 10px;
+            margin: 30px 0;
+            border: 2px solid #3498db;
+        }
+
+        .location-label {
+            color: #3498db;
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .location-box {
+            background: #2c3e50;
+            border: 2px dashed #3498db;
+            padding: 20px;
+            border-radius: 8px;
+            color: #ecf0f1;
+            font-size: 1.3em;
+            min-height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .details {
+            color: #bdc3c7;
+            font-size: 1.1em;
+            margin: 20px 0;
+            line-height: 1.8;
+        }
+
+        .emoji {
+            font-size: 2em;
+            margin: 0 5px;
+        }
+
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        .footer {
+            margin-top: 30px;
+            color: #95a5a6;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><span class="emoji">🎂</span> 30 <span class="emoji">🎉</span></h1>
+        <div class="subtitle">DIRTY THIRTIES BIRTHDAY BASH</div>
+        <div class="tagline">We're not getting older, we're getting DIRTY! 😏</div>
+
+        <div class="dirty-thirties">
+            <p>
+                <span class="emoji">🌶️</span> Join us as we celebrate 30 years of questionable decisions and legendary stories! <span class="emoji">🌶️</span>
+                <br><br>
+                It's official: The thirties are upon us, and they're FILTHY!
+            </p>
+        </div>
+
+        <div class="location-section">
+            <div class="location-label"><span class="emoji">📍</span> LOCATION</div>
+            <div class="location-box">
+                1824 E Monte Verde Ave, Visalia CA
+            </div>
+        </div>
+
+        <div class="details">
+            <p><span class="emoji">⏰</span> Date & Time: January 17th @ 5pm</p>
+        </div>
+
+        <div class="footer">
+            <p>If you don't drink, you're gay.</p>
+        </div>
+    </div>
+</body>
+</html>
